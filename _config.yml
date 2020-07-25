@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: light
 
 plugins:
@@ -28,16 +28,24 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+navigation:
+  - title: Home
+    url: /index.html
+  - title: Projects
+    url: /projects
+  - title: My Thoughts
+    url: /thoughts
+
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: sourab-pareek-2401a788
   # mastodon: your_username
-  # medium: your_username
+  medium: sourabiit
   # stackoverflow: your_user_id
   # telegram: your_username
   # twitter: your_username
@@ -47,14 +55,10 @@ projects:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: OpenFAAS
+    web_url: https://github.com/openfaas/faas
+    image_url: https://raw.githubusercontent.com/openfaas/openfaas.github.io/master/images/openfaas/logo.png
 
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
-
-theme: jekyll-theme-minimal
+  - name: Kubernetes
+    web_url: https://www.kubernetes.io
+    image_url: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
