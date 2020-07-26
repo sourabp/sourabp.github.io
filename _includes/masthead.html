@@ -59,7 +59,7 @@
   <nav class="UnderlineNav" aria-label="Foo bar">
     <div class="UnderlineNav-body">
       {% for link in site.navigation %}{% assign current = nil %}{% if page.url contains link.url or forloop.first and page.url == '/' or page.url == 'index.html' %}{% assign current = 'current' %}{% endif %}
-        <a class="UnderlineNav-item" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
+        <a class="UnderlineNav-item nav-item {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
       {% endfor %}
       <!-- <a class="UnderlineNav-item" href="#url">Resume</a> -->
     </div>

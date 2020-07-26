@@ -52,3 +52,18 @@
 .min-height-full {
   min-height: 100vh;
 }
+
+.nav-item {
+  font-size: 1.25rem;
+}
+
+.nav-item.current {
+  border-bottom: 2px solid black;
+} 
+
+.about-me {
+  line-height: 1.6rem;
+  .emphasized {
+    font-size: 1.25rem;
+  }
+}

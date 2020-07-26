@@ -29,7 +29,7 @@ projects:
     # - repo-name
 
 navigation:
-  - title: Home
+  - title: About Me
     url: /index.html
   - title: Projects
     url: /projects
