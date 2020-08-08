@@ -25,7 +25,7 @@ projects:
   exclude:
     archived: false
     forks: true
-    projects:
+    # projects:
     # - repo-name
 
 navigation:
@@ -55,6 +55,10 @@ social_media:
   # youtube: your_username
 
 topics:
+  - name: Go
+    web_url: https://github.com/golang/go
+    image_url: https://golang.org/lib/godoc/images/go-logo-blue.svg
+
   - name: OpenFAAS
     web_url: https://github.com/openfaas/faas
     image_url: https://raw.githubusercontent.com/openfaas/openfaas.github.io/master/images/openfaas/logo.png
